@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ *  Bandbeats band profile page
+ */
+function bandbeats_bandpage_menu() {
+	$items = array();
+
+	$items['band/profile'] = array(
+		'title' => 'test',
+		'description' => 'Test Page',
+		'page arguments' => array('bandbeats_bandpage_form'),
+		'page callback' => 'drupal_get_form',
+		'access callback' => TRUE,
+		'file' => 'bandbeats_bandpage.inc',
+		);
+	return $items;
+}

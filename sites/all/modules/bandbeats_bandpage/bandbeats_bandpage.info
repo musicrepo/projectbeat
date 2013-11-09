@@ -1,0 +1,8 @@
+name = Band Beats Band Page
+description = A page for displaying a bands profile info page with links to other pages like band music and social links
+package = BandBeats
+core = 7.x
+version = 1.x-dev
+
+files[] = bandbeats_bandpage.module
+files[] = bandbeats_bandpage.inc
