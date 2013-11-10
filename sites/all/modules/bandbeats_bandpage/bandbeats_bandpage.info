@@ -6,3 +6,4 @@ version = 1.x-dev
 
 files[] = bandbeats_bandpage.module
 files[] = bandbeats_bandpage.inc
+files[] = bandbeats_bandpage.tpl.php

@@ -1,0 +1,115 @@
+body {
+	background-image: url('../images/wild_oliva.png');
+}
+
+.inline {
+	float: left;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.header-wrapper {
+	width: 100%;
+}
+
+.logo {
+	padding-top: 10px;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.header {
+	background-image: url('../images/light_toast.png');
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: 2px solid silver;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.search-box {
+	padding-top: 10px;
+	padding-left: 3.5%;
+	padding-right: 3.5%;
+	padding-bottom: 10px;
+	margin: auto;
+}
+
+/* input[type="submit"], input[type="buttom"], input[type="reset"], input[type="file"]:: -webkit-file-upload-button, button { */
+input {
+	background-color:#ededed;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:101px;
+	text-decoration:none;
+	text-align:center;
+}
+
+input[type="text"] {
+	height: 25px;
+	width: 175px;
+}
+
+input:hover {
+	background-color:#D5D5D5;
+}
+
+.user-navigation {
+	/*padding-bottom: 20px;
+	padding-right: 1em;*/
+	height: auto;
+	float: right;
+	
+}
+
+/*.user-navigation li {
+	background-color:#ededed;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:101px;
+	text-decoration:none;
+	text-align:center;
+}*/
+
+.user-navigation a {
+	background-color:#ededed;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777 !important;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:101px;
+	text-decoration:none;
+	text-align:center;
+}
+
+.user-navigation a:hover {
+	background-color:#D5D5D5;
+}
+
+.user-navigation li {
+	list-style-type: none;
+}
+
+input:hover {
+	background-color:#D5D5D5;
+}
