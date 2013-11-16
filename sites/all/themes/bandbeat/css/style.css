@@ -1,5 +1,50 @@
-body {
-	background-image: url('../images/wild_oliva.png');
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.root {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial;
+}
+
+.root a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.root a:link {
+	color: #2cabe2;
+}
+
+.sidebar-first-wrapper {
+	float: left;
+	padding-left: 50px;
+}
+
+.sidebar-first {
+	border-left: 1px solid silver;
+}
+
+.root a:visited {
+	color: #999999;
+}
+
+ul.inline,
+ul.links.inline {
+	display: inline;
+	padding-right: 25px;
+}
+
+#search-box-form {
+	width: 10px !important;
+}
+
+ul.inline li {
+	padding: 0;
 }
 
 .inline {
@@ -22,7 +67,6 @@ body {
 
 .header {
 	background-image: url('../images/light_toast.png');
-	border-radius: 10px 10px 0px 0px;
 	border-bottom: 2px solid silver;
 	margin: 0 auto;
 	background-color: white;
@@ -33,12 +77,11 @@ body {
 	padding-left: 3.5%;
 	padding-right: 3.5%;
 	padding-bottom: 10px;
-	margin: auto;
 }
 
 /* input[type="submit"], input[type="buttom"], input[type="reset"], input[type="file"]:: -webkit-file-upload-button, button { */
 input {
-	background-color:#ededed;
+	background-color:#f0f0f0;
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	color:#777777;
@@ -48,14 +91,15 @@ input {
 	font-style:normal;
 	height:30px;
 	line-height:30px;
-	width:101px;
+	width:150px;
 	text-decoration:none;
 	text-align:center;
 }
 
 input[type="text"] {
 	height: 25px;
-	width: 175px;
+	width: 371px;
+	background-color: white;
 }
 
 input:hover {
@@ -63,28 +107,22 @@ input:hover {
 }
 
 .user-navigation {
-	/*padding-bottom: 20px;
-	padding-right: 1em;*/
-	height: auto;
 	float: right;
 	
 }
 
-/*.user-navigation li {
-	background-color:#ededed;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	color:#777777;
-	font-family:Arial;
-	font-size:16px;
-	font-weight:bold;
-	font-style:normal;
-	height:30px;
-	line-height:30px;
-	width:101px;
-	text-decoration:none;
-	text-align:center;
-}*/
+.content-wrapper {
+	width: 100%;
+}
+
+.content-main {
+	width: 720px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left: 1px solid silver;
+	border-right: 1px solid silver;
+}
 
 .user-navigation a {
 	background-color:#ededed;
@@ -97,7 +135,7 @@ input:hover {
 	font-style:normal;
 	height:30px;
 	line-height:30px;
-	width:101px;
+	width:125px;
 	text-decoration:none;
 	text-align:center;
 }

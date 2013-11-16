@@ -29,7 +29,7 @@
             			'class' => array('links', 'inline', 'clearfix'),
           				),
           				'heading' => array(
-            			'level' => 'h2',
+            			'level' => 'h6',
             			'class' => array('element-invisible'),
           				),
         			)); ?>
@@ -45,7 +45,7 @@
             		),
             		'heading' => array(
               		'text' => t('Main menu'),
-              		'level' => 'h2',
+              		'level' => 'h6',
               		'class' => array('element-invisible'),
             		),
           		)); ?>
@@ -54,5 +54,27 @@
 			</span>
 		</div>
 		<br class="clear-both"/>
+	</div>
+	<div class="sidebar-first-wrapper">
+		<div class="sidebar-first">
+			<?php if($page['sidebar_first']): ?>
+				<?php print render($page['sidebar_first']); ?>
+			<?php endif; ?>
+		</div>
+	</div>
+	<div class="content-wrapper">
+		<div class="content-main">
+			<?php if($page['content']): ?>
+				<?php print render($page['content']); ?>
+			<?php endif; ?>
+		</div>
+	</div>
+	<div class="sidebar-second-wrapper">
+		<div class="sidebar-second">
+		</div>
+	</div>
+	<div class="footer-wrapper">
+		<div class="footer">
+		</div>
 	</div>
 </div>

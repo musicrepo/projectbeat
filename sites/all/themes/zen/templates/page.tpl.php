@@ -23,7 +23,7 @@
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
           </h1>
         <?php endif; ?>
-
+ 
         <?php if ($site_slogan): ?>
           <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
         <?php endif; ?>
